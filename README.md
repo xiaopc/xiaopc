@@ -1,4 +1,5 @@
-[full version](https://xpc.im/)
+[![open full version](https://badgen.net/badge/open/full%20version/27D5AC)](https://xpc.im/)
+![](https://komarev.com/ghpvc/?username=xiaopc&color=brightgreen&label=page%20views)
 
 ```yaml
 intro:
