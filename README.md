@@ -3,14 +3,14 @@
 
 ```yaml
 intro:
-  netizen since: 2003
-  degree: bachelor of cs, sichuan univ.
+  netizen: 2003-now
+  degree: b.eng. of cs, sichuan university
   coding: naively
 
 learning: &learning
 
 coding:
-  frontend: {css, js, vue, ...}
+  frontend: {css, js, ts: *learning, vue, ...}
   backend: {php, python, node: *learning, go: *learning}
   native: {c, cpp, qt, ...}
   operation: {linux, nginx}
