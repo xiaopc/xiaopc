@@ -194,16 +194,24 @@ h2 {
 .card-content a {
     color          : #100c08;
     text-decoration: none;
-    background     : rgba(255, 255, 255, 0.8);
+    background     : rgba(255, 255, 255, 0.7);
     padding        : 7pt 16pt;
     border-radius  : 10pt;
     line-height    : 3.2;
-    transition     : all 0.3s;
+    transition     : all  0.3s cubic-bezier(0.33, 1, 0.68, 1);
+}
+
+.card-content a.disabled {
+    opacity: 0.6;
 }
 
 .card-content a:hover {
-    color     : #000;
-    background: rgba(255, 255, 255, 0.8);
+    filter    : contrast(1.5);
+    background: rgba(255, 255, 255, 0.9);
+}
+
+.card-content a.disabled:hover {
+    background     : rgba(255, 255, 255, 0.7);
 }
 
 .card h1,
