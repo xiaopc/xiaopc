@@ -4,7 +4,7 @@
 ```yaml
 intro:
   netizen: 2003-now
-  degree: b.eng. of computer science, sichuan university
+  degree: bsc in computer science, sichuan university
   coding: naively
   current: freelance developer
 
