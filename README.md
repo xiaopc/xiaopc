@@ -1,4 +1,3 @@
-[![open full version](https://badgen.net/badge/open/full%20version/27D5AC)](https://xpc.im/)
 ![page views](https://komarev.com/ghpvc/?username=xiaopc&color=brightgreen&label=page%20views)
 
 ```yaml
@@ -8,12 +7,10 @@ intro:
   coding: naively
   current: freelance developer
 
-learn: &learning
-
 code:
-  frontend: {css, js, ts: *learning, vue, ...}
-  backend: {php, python, node: *learning, go: *learning}
-  native: {c, cpp, qt, ...}
+  frontend: {css, js, ts, vue, react, ...}
+  backend: {php, python, node, go}
+  native: {c, cpp, csharp, ...}
   operation: {linux, nginx}
   security: do i really know this?
 
@@ -22,7 +19,7 @@ interests:
   - data science
   - ...
 
-mailto: i@xpc.im
-
-# for detailed info, visit https://xpc.im/
+mailto: xiaopc@duck.com
 ```
+
+[![contact](https://badgen.net/badge/get/in%20touch/27D5AC)](https://xpc.im/)
